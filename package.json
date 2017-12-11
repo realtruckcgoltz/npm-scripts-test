@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "./node_modules/.bin/babel src -d build"
+    "prepublish": "./node_modules/.bin/babel src -d build"
   },
   "author": "",
   "license": "ISC",
